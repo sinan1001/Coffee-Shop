@@ -1,0 +1,92 @@
+[
+  {
+    "id": "espresso",
+    "name": "Espresso",
+    "category": "Coffee",
+    "price": 2.5,
+    "emoji": "☕",
+    "ingredients": ["Freshly ground espresso"],
+    "nutrition": { "calories": 5, "caffeine_mg": 64, "sugar_g": 0, "fat_g": 0, "protein_g": 0 }
+  },
+  {
+    "id": "americano",
+    "name": "Americano",
+    "category": "Coffee",
+    "price": 3.0,
+    "emoji": "🫗",
+    "ingredients": ["Espresso", "Hot water"],
+    "nutrition": { "calories": 10, "caffeine_mg": 77, "sugar_g": 0, "fat_g": 0, "protein_g": 0 }
+  },
+  {
+    "id": "latte",
+    "name": "Latte",
+    "category": "Coffee",
+    "price": 4.25,
+    "emoji": "🥛",
+    "ingredients": ["Espresso", "Steamed milk", "Milk foam"],
+    "nutrition": { "calories": 190, "caffeine_mg": 77, "sugar_g": 18, "fat_g": 7, "protein_g": 10 }
+  },
+  {
+    "id": "cappuccino",
+    "name": "Cappuccino",
+    "category": "Coffee",
+    "price": 4.25,
+    "emoji": "🫖",
+    "ingredients": ["Espresso", "Steamed milk", "Thick milk foam"],
+    "nutrition": { "calories": 120, "caffeine_mg": 77, "sugar_g": 10, "fat_g": 4, "protein_g": 6 }
+  },
+  {
+    "id": "mocha",
+    "name": "Mocha",
+    "category": "Coffee",
+    "price": 4.75,
+    "emoji": "🍫",
+    "ingredients": ["Espresso", "Steamed milk", "Chocolate syrup", "Whipped cream"],
+    "nutrition": { "calories": 290, "caffeine_mg": 90, "sugar_g": 27, "fat_g": 12, "protein_g": 9 }
+  },
+  {
+    "id": "flat-white",
+    "name": "Flat White",
+    "category": "Coffee",
+    "price": 4.5,
+    "emoji": "🥛",
+    "ingredients": ["Ristretto espresso", "Steamed milk"],
+    "nutrition": { "calories": 170, "caffeine_mg": 85, "sugar_g": 13, "fat_g": 7, "protein_g": 9 }
+  },
+  {
+    "id": "cold-brew",
+    "name": "Cold Brew",
+    "category": "Iced Coffee",
+    "price": 4.0,
+    "emoji": "🧊",
+    "ingredients": ["Coarse-ground coffee", "Cold water", "Time"],
+    "nutrition": { "calories": 5, "caffeine_mg": 200, "sugar_g": 0, "fat_g": 0, "protein_g": 0 }
+  },
+  {
+    "id": "matcha-latte",
+    "name": "Matcha Latte",
+    "category": "Tea",
+    "price": 4.75,
+    "emoji": "🍵",
+    "ingredients": ["Matcha powder", "Steamed milk", "Sweetener (optional)"],
+    "nutrition": { "calories": 210, "caffeine_mg": 70, "sugar_g": 20, "fat_g": 6, "protein_g": 8 }
+  },
+  {
+    "id": "chai-latte",
+    "name": "Chai Latte",
+    "category": "Tea",
+    "price": 4.5,
+    "emoji": "🫖",
+    "ingredients": ["Black tea", "Spices", "Steamed milk", "Sweetener"],
+    "nutrition": { "calories": 240, "caffeine_mg": 60, "sugar_g": 32, "fat_g": 6, "protein_g": 8 }
+  },
+  {
+    "id": "hot-chocolate",
+    "name": "Hot Chocolate",
+    "category": "Chocolate",
+    "price": 3.5,
+    "emoji": "🍫",
+    "ingredients": ["Cocoa", "Steamed milk", "Sugar", "Whipped cream (optional)"],
+    "nutrition": { "calories": 280, "caffeine_mg": 12, "sugar_g": 32, "fat_g": 10, "protein_g": 8 }
+  }
+]
