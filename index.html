@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Coffee House Menu</title>
+    <meta name="description" content="Browse our coffee shop menu. Tap an item to see ingredients and nutrition.">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#menu">Skip to menu</a>
+    <header class="site-header">
+      <div class="container">
+        <h1 class="brand">Coffee House</h1>
+      </div>
+    </header>
+    <main id="main" class="container">
+      <section aria-labelledby="menu-heading">
+        <div class="menu-header">
+          <h2 id="menu-heading">Menu</h2>
+          <p class="menu-subtitle">Tap an item to view ingredients and nutrition.</p>
+        </div>
+        <div id="menu" class="menu-grid" role="list"></div>
+      </section>
+    </main>
+
+    <div class="modal" id="item-modal" role="dialog" aria-modal="true" aria-hidden="true" aria-labelledby="modal-title">
+      <div class="modal-backdrop" data-close></div>
+      <div class="modal-dialog" role="document" aria-describedby="modal-desc">
+        <button class="modal-close" aria-label="Close details" data-close>&times;</button>
+        <h3 id="modal-title"></h3>
+        <p id="modal-desc" class="visually-hidden">Details for the selected menu item including ingredients and nutritional information.</p>
+        <p class="modal-price" id="modal-price"></p>
+        <p class="modal-category" id="modal-category"></p>
+        <h4>Ingredients</h4>
+        <ul id="modal-ingredients"></ul>
+        <h4>Nutrition</h4>
+        <dl class="nutrition" id="modal-nutrition"></dl>
+      </div>
+    </div>
+
+    <noscript>
+      <p style="padding:1rem">This app requires JavaScript to display menu details.</p>
+    </noscript>
+    <script src="app.js" defer></script>
+  </body>
+</html>
